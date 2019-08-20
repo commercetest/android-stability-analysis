@@ -1,0 +1,89 @@
+[
+{
+	"Reports": "5",
+	"Reports total": "5",
+	"Impacted users": "1",
+	"Last reported": "Yesterday, 9:29 AM",
+	"By app version": {
+		"1182470": {
+			"value": "5",
+			"percentage": "100.0%"
+		}
+	},
+	"By Android version": {
+		"Android 7_0": {
+			"value": "5",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"Xperia Z4 Tablet (SO-05G)": {
+			"value": "5",
+			"percentage": "100.0%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Yesterday, 9:29 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3474)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3514)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2778)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1515)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:241)\n  at android.app.ActivityThread.main (ActivityThread.java:6217)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:865)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:755)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6809)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3451)\n",
+			"device": "Sony Xperia Z4 Tablet (SO-05G), Android 7.0"
+		},
+		{
+			"title": "Yesterday, 9:29 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3474)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3514)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2778)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1515)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:241)\n  at android.app.ActivityThread.main (ActivityThread.java:6217)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:865)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:755)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6809)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3451)\n",
+			"device": "Sony Xperia Z4 Tablet (SO-05G), Android 7.0"
+		},
+		{
+			"title": "Aug 9, 10:33 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3474)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3514)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2778)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1515)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:241)\n  at android.app.ActivityThread.main (ActivityThread.java:6217)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:865)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:755)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6809)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3451)\n",
+			"device": "Sony Xperia Z4 Tablet (SO-05G), Android 7.0"
+		},
+		{
+			"title": "Aug 6, 8:10 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3474)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3514)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2778)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1515)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:241)\n  at android.app.ActivityThread.main (ActivityThread.java:6217)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:865)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:755)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6809)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3451)\n",
+			"device": "Sony Xperia Z4 Tablet (SO-05G), Android 7.0"
+		},
+		{
+			"title": "Aug 6, 8:10 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3474)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3514)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2778)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1515)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:241)\n  at android.app.ActivityThread.main (ActivityThread.java:6217)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:865)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:755)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6809)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3451)\n",
+			"device": "Sony Xperia Z4 Tablet (SO-05G), Android 7.0"
+		}
+	]
+},
+{
+	"Reports": "2",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"1182470": {
+			"value": "2",
+			"percentage": "100.0%"
+		}
+	},
+	"By Android version": {
+		"Android 7_1": {
+			"value": "2",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"F-05J (F05J)": {
+			"value": "2",
+			"percentage": "100.0%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 12, 2:04 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2727)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2791)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1539)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6329)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:890)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:780)\n  at android.os.Parcel.readException (Parcel.java:1692)\n  at android.database.DatabaseUtils.readExceptionFromParcel (DatabaseUtils.java:183)\n  at android.database.DatabaseUtils.readExceptionFromParcel (DatabaseUtils.java:135)\n  at android.content.ContentProviderProxy.query (ContentProviderNative.java:421)\n  at android.content.ContentResolver.query (ContentResolver.java:551)\n  at android.content.ContentResolver.query (ContentResolver.java:492)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:156)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:141)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6750)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1122)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2680)\n",
+			"device": "Fujitsu F-05J (F05J), Android 7.1"
+		},
+		{
+			"title": "Aug 12, 2:04 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2727)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2791)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1539)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6329)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:890)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:780)\n  at android.os.Parcel.readException (Parcel.java:1692)\n  at android.database.DatabaseUtils.readExceptionFromParcel (DatabaseUtils.java:183)\n  at android.database.DatabaseUtils.readExceptionFromParcel (DatabaseUtils.java:135)\n  at android.content.ContentProviderProxy.query (ContentProviderNative.java:421)\n  at android.content.ContentResolver.query (ContentResolver.java:551)\n  at android.content.ContentResolver.query (ContentResolver.java:492)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:156)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:141)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6750)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1122)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2680)\n",
+			"device": "Fujitsu F-05J (F05J), Android 7.1"
+		}
+	]
+}
+]

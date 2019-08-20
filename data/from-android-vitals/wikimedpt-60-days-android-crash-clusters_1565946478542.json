@@ -1,0 +1,287 @@
+[
+{
+	"Reports": "5",
+	"Reports total": "5",
+	"Impacted users": "1",
+	"Last reported": "Aug 13, 4:42 PM",
+	"By app version": {
+		"183500": {
+			"value": "5",
+			"percentage": "100.0%"
+		}
+	},
+	"By Android version": {
+		"Android 9": {
+			"value": "5",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"Galaxy J4+ (j4primelte)": {
+			"value": "5",
+			"percentage": "100.0%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 13, 4:42 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4025)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4057)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1960)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7097)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:494)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:975)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1416)\n  at android.app.Activity.performResume (Activity.java:7585)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4017)\n",
+			"device": "Samsung Galaxy J4+ (j4primelte), Android 9"
+		},
+		{
+			"title": "Aug 13, 4:42 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4025)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4057)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1960)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7097)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:494)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:975)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1416)\n  at android.app.Activity.performResume (Activity.java:7585)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4017)\n",
+			"device": "Samsung Galaxy J4+ (j4primelte), Android 9"
+		},
+		{
+			"title": "Aug 13, 4:42 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4025)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4057)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1960)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7097)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:494)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:975)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1416)\n  at android.app.Activity.performResume (Activity.java:7585)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4017)\n",
+			"device": "Samsung Galaxy J4+ (j4primelte), Android 9"
+		},
+		{
+			"title": "Aug 13, 4:42 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4025)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4057)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1960)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7097)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:494)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:975)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1416)\n  at android.app.Activity.performResume (Activity.java:7585)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4017)\n",
+			"device": "Samsung Galaxy J4+ (j4primelte), Android 9"
+		},
+		{
+			"title": "Aug 13, 4:42 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4025)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4057)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1960)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7097)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:494)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:975)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1416)\n  at android.app.Activity.performResume (Activity.java:7585)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4017)\n",
+			"device": "Samsung Galaxy J4+ (j4primelte), Android 9"
+		}
+	]
+},
+{
+	"Reports": "4",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"183500": {
+			"value": "1",
+			"percentage": "25.0%"
+		},
+		"1183500": {
+			"value": "3",
+			"percentage": "75.0%"
+		}
+	},
+	"By Android version": {
+		"Android 9": {
+			"value": "4",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"Redmi 7 (onc)": {
+			"value": "3",
+			"percentage": "75.0%"
+		},
+		"Galaxy J4+ (j4primelte)": {
+			"value": "1",
+			"percentage": "25.0%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 11, 11:41 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2946)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3081)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1831)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:201)\n  at android.app.ActivityThread.main (ActivityThread.java:6810)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:547)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:873)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:346)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7224)\n  at android.app.Activity.performCreate (Activity.java:7213)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1272)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2926)\n",
+			"device": "Xiaomi Redmi 7 (onc), Android 9"
+		},
+		{
+			"title": "Aug 11, 11:41 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2946)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3081)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1831)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:201)\n  at android.app.ActivityThread.main (ActivityThread.java:6810)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:547)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:873)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:346)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7224)\n  at android.app.Activity.performCreate (Activity.java:7213)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1272)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2926)\n",
+			"device": "Xiaomi Redmi 7 (onc), Android 9"
+		},
+		{
+			"title": "Aug 11, 10:17 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2946)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3081)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1831)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:201)\n  at android.app.ActivityThread.main (ActivityThread.java:6810)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:547)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:873)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:346)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7224)\n  at android.app.Activity.performCreate (Activity.java:7213)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1272)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2926)\n",
+			"device": "Xiaomi Redmi 7 (onc), Android 9"
+		},
+		{
+			"title": "Jul 19, 12:56 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3125)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3268)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1960)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7097)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:494)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:975)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:340)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7340)\n  at android.app.Activity.performCreate (Activity.java:7331)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1275)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3105)\n",
+			"device": "Samsung Galaxy J4+ (j4primelte), Android 9"
+		}
+	]
+},
+{
+	"Reports": "16",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"183500": {
+			"value": "14",
+			"percentage": "87.5%"
+		},
+		"1183500": {
+			"value": "2",
+			"percentage": "12.5%"
+		}
+	},
+	"By Android version": {
+		"Android 7_0": {
+			"value": "14",
+			"percentage": "87.5%"
+		},
+		"Android 8_0": {
+			"value": "2",
+			"percentage": "12.5%"
+		}
+	},
+	"By device": {
+		"LG K10 (2017) (mlv5)": {
+			"value": "14",
+			"percentage": "87.5%"
+		},
+		"HUAWEI Y6 2018 (HWATU-QG)": {
+			"value": "2",
+			"percentage": "12.5%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 9, 5:45 AM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 9, 5:45 AM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Aug 4, 5:14 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2749)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2810)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6312)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6757)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1119)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2702)\n",
+			"device": "LGE LG K10 (2017) (mlv5), Android 7.0"
+		},
+		{
+			"title": "Jul 8, 11:40 AM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3303)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3411)\n  at android.app.ActivityThread.-wrap12 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1994)\n  at android.os.Handler.dispatchMessage (Handler.java:108)\n  at android.os.Looper.loop (Looper.java:166)\n  at android.app.ActivityThread.main (ActivityThread.java:7529)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:245)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:921)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7383)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1218)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3256)\n",
+			"device": "Huawei HUAWEI Y6 2018 (HWATU-QG), Android 8.0"
+		},
+		{
+			"title": "Jul 8, 11:40 AM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3303)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3411)\n  at android.app.ActivityThread.-wrap12 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1994)\n  at android.os.Handler.dispatchMessage (Handler.java:108)\n  at android.os.Looper.loop (Looper.java:166)\n  at android.app.ActivityThread.main (ActivityThread.java:7529)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:245)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:921)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:333)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7383)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1218)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3256)\n",
+			"device": "Huawei HUAWEI Y6 2018 (HWATU-QG), Android 8.0"
+		}
+	]
+},
+{
+	"Reports": "1",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"183500": {
+			"value": "1",
+			"percentage": "100.0%"
+		}
+	},
+	"By Android version": {
+		"Android 8_1": {
+			"value": "1",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"Galaxy J2 Core (j2corelte)": {
+			"value": "1",
+			"percentage": "100.0%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 11, 2:06 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2789)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2872)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1595)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6543)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:440)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:810)\n  at dagger.android.AndroidInjection.inject (AndroidInjection.java:49)\n  at org.kiwix.kiwixmobile.base.BaseActivity.onCreate (BaseActivity.java:30)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:361)\n  at android.app.Activity.performCreate (Activity.java:7009)\n  at android.app.Activity.performCreate (Activity.java:7000)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1214)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2742)\n",
+			"device": "Samsung Galaxy J2 Core (j2corelte), Android 8.1"
+		}
+	]
+},
+{
+	"Reports": "1",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"1183500": {
+			"value": "1",
+			"percentage": "100.0%"
+		}
+	},
+	"By Android version": {
+		"Android 9": {
+			"value": "1",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"Moto X (4) (payton)": {
+			"value": "1",
+			"percentage": "100.0%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 9, 5:17 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3121)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3260)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1976)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:193)\n  at android.app.ActivityThread.main (ActivityThread.java:6912)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:860)\n  at java.lang.Long.parseLong (Long.java:594)\n  at java.lang.Long.valueOf (Long.java:808)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7144)\n  at android.app.Activity.performCreate (Activity.java:7135)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1293)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3101)\n",
+			"device": "Motorola Moto X (4) (payton), Android 9"
+		}
+	]
+}
+]

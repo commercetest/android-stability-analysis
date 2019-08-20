@@ -1,0 +1,131 @@
+[
+{
+	"Reports": "8",
+	"Reports total": "8",
+	"Impacted users": "3",
+	"Last reported": "Aug 13, 8:40 PM",
+	"By app version": {
+		"183500": {
+			"value": "2",
+			"percentage": "25.0%"
+		},
+		"1183500": {
+			"value": "6",
+			"percentage": "75.0%"
+		}
+	},
+	"By Android version": {
+		"Android 9": {
+			"value": "8",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"OnePlus 7 Pro (OnePlus7Pro)": {
+			"value": "5",
+			"percentage": "62.5%"
+		},
+		"jfltexx": {
+			"value": "2",
+			"percentage": "25.0%"
+		},
+		"Nokia 7 plus (B2N_sprout)": {
+			"value": "1",
+			"percentage": "12.5%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 13, 8:40 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4007)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4039)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1955)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:193)\n  at android.app.ActivityThread.main (ActivityThread.java:7029)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:537)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:858)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1514)\n  at android.app.Activity.performResume (Activity.java:7319)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3999)\n",
+			"device": "OnePlus OnePlus 7 Pro (OnePlus7Pro), Android 9"
+		},
+		{
+			"title": "Aug 13, 8:40 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4007)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4039)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1955)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:193)\n  at android.app.ActivityThread.main (ActivityThread.java:7029)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:537)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:858)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1514)\n  at android.app.Activity.performResume (Activity.java:7319)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3999)\n",
+			"device": "OnePlus OnePlus 7 Pro (OnePlus7Pro), Android 9"
+		},
+		{
+			"title": "Aug 13, 8:40 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4007)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4039)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1955)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:193)\n  at android.app.ActivityThread.main (ActivityThread.java:7029)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:537)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:858)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1514)\n  at android.app.Activity.performResume (Activity.java:7319)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3999)\n",
+			"device": "OnePlus OnePlus 7 Pro (OnePlus7Pro), Android 9"
+		},
+		{
+			"title": "Aug 13, 8:40 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4007)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4039)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1955)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:193)\n  at android.app.ActivityThread.main (ActivityThread.java:7029)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:537)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:858)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1514)\n  at android.app.Activity.performResume (Activity.java:7319)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3999)\n",
+			"device": "OnePlus OnePlus 7 Pro (OnePlus7Pro), Android 9"
+		},
+		{
+			"title": "Aug 13, 8:40 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4007)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4039)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1955)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:193)\n  at android.app.ActivityThread.main (ActivityThread.java:7029)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:537)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:858)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1514)\n  at android.app.Activity.performResume (Activity.java:7319)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3999)\n",
+			"device": "OnePlus OnePlus 7 Pro (OnePlus7Pro), Android 9"
+		},
+		{
+			"title": "Aug 11, 10:06 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3822)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3854)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1816)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:193)\n  at android.app.ActivityThread.main (ActivityThread.java:6718)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:858)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7300)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3814)\n",
+			"device": " jfltexx, Android 9"
+		},
+		{
+			"title": "Aug 11, 10:06 PM on app version 183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3822)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3854)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1816)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:193)\n  at android.app.ActivityThread.main (ActivityThread.java:6718)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:858)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7300)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3814)\n",
+			"device": " jfltexx, Android 9"
+		},
+		{
+			"title": "Aug 11, 7:19 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3811)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3843)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1823)\n  at android.os.Handler.dispatchMessage (Handler.java:107)\n  at android.os.Looper.loop (Looper.java:198)\n  at android.app.ActivityThread.main (ActivityThread.java:6729)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:858)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1413)\n  at android.app.Activity.performResume (Activity.java:7292)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3803)\n",
+			"device": "Nokia Nokia 7 plus (B2N_sprout), Android 9"
+		}
+	]
+},
+{
+	"Reports": "5",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"1183500": {
+			"value": "5",
+			"percentage": "100.0%"
+		}
+	},
+	"By Android version": {
+		"Android 9": {
+			"value": "5",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"dream2qltesq": {
+			"value": "5",
+			"percentage": "100.0%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 13, 11:02 AM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3108)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3251)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:340)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7327)\n  at android.app.Activity.performCreate (Activity.java:7318)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1271)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3088)\n",
+			"device": " dream2qltesq, Android 9"
+		},
+		{
+			"title": "Aug 11, 4:38 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3108)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3251)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:340)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7327)\n  at android.app.Activity.performCreate (Activity.java:7318)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1271)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3088)\n",
+			"device": " dream2qltesq, Android 9"
+		},
+		{
+			"title": "Aug 11, 4:38 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3108)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3251)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:340)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7327)\n  at android.app.Activity.performCreate (Activity.java:7318)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1271)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3088)\n",
+			"device": " dream2qltesq, Android 9"
+		},
+		{
+			"title": "Aug 11, 4:38 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3108)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3251)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:340)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7327)\n  at android.app.Activity.performCreate (Activity.java:7318)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1271)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3088)\n",
+			"device": " dream2qltesq, Android 9"
+		},
+		{
+			"title": "Aug 11, 4:38 PM on app version 1183500",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3108)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3251)\n  at android.app.servertransaction.LaunchActivityItem.execute (LaunchActivityItem.java:78)\n  at android.app.servertransaction.TransactionExecutor.executeCallbacks (TransactionExecutor.java:108)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:68)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at android.database.AbstractCursor.getColumnIndexOrThrow (AbstractCursor.java:340)\n  at android.database.CursorWrapper.getColumnIndexOrThrow (CursorWrapper.java:87)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.contentQuery (FileUtils.java:159)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:144)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7327)\n  at android.app.Activity.performCreate (Activity.java:7318)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1271)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:3088)\n",
+			"device": " dream2qltesq, Android 9"
+		}
+	]
+}
+]

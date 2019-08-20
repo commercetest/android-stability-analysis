@@ -1,0 +1,739 @@
+[
+{
+	"Reports": "51",
+	"Reports total": "51",
+	"Impacted users": "7",
+	"Last reported": "Yesterday, 4:55 AM",
+	"By app version": {
+		"1182470": {
+			"value": "51",
+			"percentage": "100.0%"
+		}
+	},
+	"By Android version": {
+		"Android 9": {
+			"value": "51",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"Mate 9 (HWMHA)": {
+			"value": "15",
+			"percentage": "29.4%"
+		},
+		"Galaxy S8 (dreamqltesq)": {
+			"value": "13",
+			"percentage": "25.5%"
+		},
+		"Xperia XZ3 (H9493)": {
+			"value": "7",
+			"percentage": "13.7%"
+		},
+		"P20 lite (HWANE)": {
+			"value": "7",
+			"percentage": "13.7%"
+		},
+		"Mate 20 Pro (HWLYA)": {
+			"value": "3",
+			"percentage": "5.9%"
+		},
+		"nova 3i (HWINE)": {
+			"value": "3",
+			"percentage": "5.9%"
+		},
+		"Galaxy S8+ (dream2lte)": {
+			"value": "3",
+			"percentage": "5.9%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Yesterday, 4:55 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4354)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4394)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2155)\n  at android.os.Handler.dispatchMessage (Handler.java:109)\n  at android.os.Looper.loop (Looper.java:207)\n  at android.app.ActivityThread.main (ActivityThread.java:7539)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:958)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7597)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4336)\n",
+			"device": "Huawei nova 3i (HWINE), Android 9"
+		},
+		{
+			"title": "Yesterday, 4:55 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4354)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4394)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2155)\n  at android.os.Handler.dispatchMessage (Handler.java:109)\n  at android.os.Looper.loop (Looper.java:207)\n  at android.app.ActivityThread.main (ActivityThread.java:7539)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:958)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7597)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4336)\n",
+			"device": "Huawei nova 3i (HWINE), Android 9"
+		},
+		{
+			"title": "Yesterday, 4:55 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4354)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4394)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2155)\n  at android.os.Handler.dispatchMessage (Handler.java:109)\n  at android.os.Looper.loop (Looper.java:207)\n  at android.app.ActivityThread.main (ActivityThread.java:7539)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:958)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7597)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4336)\n",
+			"device": "Huawei nova 3i (HWINE), Android 9"
+		},
+		{
+			"title": "Aug 12, 6:08 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4008)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4040)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7558)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4000)\n",
+			"device": "Samsung Galaxy S8 (dreamqltesq), Android 9"
+		},
+		{
+			"title": "Aug 7, 2:41 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4008)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4040)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7558)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4000)\n",
+			"device": "Samsung Galaxy S8 (dreamqltesq), Android 9"
+		},
+		{
+			"title": "Aug 7, 8:06 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei P20 lite (HWANE), Android 9"
+		},
+		{
+			"title": "Aug 7, 8:06 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei P20 lite (HWANE), Android 9"
+		},
+		{
+			"title": "Aug 7, 8:06 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei P20 lite (HWANE), Android 9"
+		},
+		{
+			"title": "Aug 7, 8:06 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei P20 lite (HWANE), Android 9"
+		},
+		{
+			"title": "Aug 7, 8:06 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei P20 lite (HWANE), Android 9"
+		},
+		{
+			"title": "Aug 7, 8:06 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei P20 lite (HWANE), Android 9"
+		},
+		{
+			"title": "Aug 7, 8:06 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei P20 lite (HWANE), Android 9"
+		},
+		{
+			"title": "Aug 4, 6:07 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4014)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4046)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7050)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:965)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7572)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4006)\n",
+			"device": "Samsung Galaxy S8+ (dream2lte), Android 9"
+		},
+		{
+			"title": "Aug 4, 6:07 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4014)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4046)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7050)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:965)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7572)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4006)\n",
+			"device": "Samsung Galaxy S8+ (dream2lte), Android 9"
+		},
+		{
+			"title": "Aug 4, 6:07 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4014)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4046)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7050)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:965)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7572)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4006)\n",
+			"device": "Samsung Galaxy S8+ (dream2lte), Android 9"
+		},
+		{
+			"title": "Aug 3, 1:03 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei Mate 20 Pro (HWLYA), Android 9"
+		},
+		{
+			"title": "Aug 3, 1:03 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei Mate 20 Pro (HWLYA), Android 9"
+		},
+		{
+			"title": "Aug 3, 1:03 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4403)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4443)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:2185)\n  at android.os.Handler.dispatchMessage (Handler.java:112)\n  at android.os.Looper.loop (Looper.java:216)\n  at android.app.ActivityThread.main (ActivityThread.java:7593)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:524)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:987)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1456)\n  at android.app.Activity.performResume (Activity.java:7614)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4385)\n",
+			"device": "Huawei Mate 20 Pro (HWLYA), Android 9"
+		},
+		{
+			"title": "Aug 1, 2:57 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4008)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4040)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7558)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4000)\n",
+			"device": "Samsung Galaxy S8 (dreamqltesq), Android 9"
+		},
+		{
+			"title": "Jul 31, 3:50 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4008)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4040)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7558)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4000)\n",
+			"device": "Samsung Galaxy S8 (dreamqltesq), Android 9"
+		},
+		{
+			"title": "Jul 31, 3:50 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4008)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4040)\n  at android.app.servertransaction.ResumeActivityItem.execute (ResumeActivityItem.java:51)\n  at android.app.servertransaction.TransactionExecutor.executeLifecycleState (TransactionExecutor.java:145)\n  at android.app.servertransaction.TransactionExecutor.execute (TransactionExecutor.java:70)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1948)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:214)\n  at android.app.ActivityThread.main (ActivityThread.java:7045)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:493)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:964)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1412)\n  at android.app.Activity.performResume (Activity.java:7558)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4000)\n",
+			"device": "Samsung Galaxy S8 (dreamqltesq), Android 9"
+		}
+	]
+},
+{
+	"Reports": "",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"—": {
+			"value": "",
+			"percentage": ""
+		}
+	},
+	"By Android version": {
+		"—": {
+			"value": "",
+			"percentage": ""
+		}
+	},
+	"By device": {
+		"—": {
+			"value": "",
+			"percentage": ""
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 9, 1:41 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4225)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4327)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3426)\n  at android.app.ActivityThread.access$1100 (ActivityThread.java:229)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1821)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:148)\n  at android.app.ActivityThread.main (ActivityThread.java:7406)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1230)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:1120)\n  at java.util.ArrayList.throwIndexOutOfBoundsException (ArrayList.java:255)\n  at java.util.ArrayList.get (ArrayList.java:308)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1287)\n  at android.app.Activity.performResume (Activity.java:7015)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4214)\n",
+			"device": "Samsung Galaxy J7 Prime (on7xelte), Android 6.0"
+		}
+	]
+},
+{
+	"Reports": "1",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"1182470": {
+			"value": "1",
+			"percentage": "100.0%"
+		}
+	},
+	"By Android version": {
+		"Android 8_0": {
+			"value": "1",
+			"percentage": "100.0%"
+		}
+	},
+	"By device": {
+		"Galaxy S7 edge (hero2qltechn)": {
+			"value": "1",
+			"percentage": "100.0%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 14, 9:14 AM on app version 1182470",
+			"trace": "java.lang.NullPointerException: \n  at org.kiwix.kiwixmobile.search.SearchActivity.onSaveInstanceState (SearchActivity.java:347)\n  at android.app.Activity.performSaveInstanceState (Activity.java:1555)\n  at android.app.Instrumentation.callActivityOnSaveInstanceState (Instrumentation.java:1392)\n  at android.app.ActivityThread.callCallActivityOnSaveInstanceState (ActivityThread.java:4943)\n  at android.app.ActivityThread.performStopActivityInner (ActivityThread.java:4231)\n  at android.app.ActivityThread.handleStopActivity (ActivityThread.java:4290)\n  at android.app.ActivityThread.-wrap25 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1730)\n  at android.os.Handler.dispatchMessage (Handler.java:105)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6944)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:327)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:1374)\n",
+			"device": "Samsung Galaxy S7 edge (hero2qltechn), Android 8.0"
+		}
+	]
+},
+{
+	"Reports": "2",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"1182470": {
+			"value": "2",
+			"percentage": "100.0%"
+		}
+	},
+	"By Android version": {
+		"Android 8_0": {
+			"value": "1",
+			"percentage": "50.0%"
+		},
+		"Android 8_1": {
+			"value": "1",
+			"percentage": "50.0%"
+		}
+	},
+	"By device": {
+		"ZenFone 4 Max (ZC554KL) (ASUS_X00IDB)": {
+			"value": "1",
+			"percentage": "50.0%"
+		},
+		"ZenFone Max M1 (ZB555KL) (ASUS_X00P_1)": {
+			"value": "1",
+			"percentage": "50.0%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 14, 7:49 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3678)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3718)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2911)\n  at android.app.ActivityThread.handleRelaunchActivity (ActivityThread.java:4787)\n  at android.app.ActivityThread.-wrap18 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1612)\n  at android.os.Handler.dispatchMessage (Handler.java:105)\n  at android.os.Looper.loop (Looper.java:169)\n  at android.app.ActivityThread.main (ActivityThread.java:6595)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:240)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:767)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1355)\n  at android.app.Activity.performResume (Activity.java:7120)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3653)\n",
+			"device": "Asus ZenFone Max M1 (ZB555KL) (ASUS_X00P_1), Android 8.0"
+		},
+		{
+			"title": "Jul 27, 7:47 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3601)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3641)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2862)\n  at android.app.ActivityThread.handleRelaunchActivity (ActivityThread.java:4719)\n  at android.app.ActivityThread.-wrap18 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1595)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:169)\n  at android.app.ActivityThread.main (ActivityThread.java:6521)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:438)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:807)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1356)\n  at android.app.Activity.performResume (Activity.java:7159)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3576)\n",
+			"device": "Asus ZenFone 4 Max (ZC554KL) (ASUS_X00IDB), Android 8.1"
+		}
+	]
+},
+{
+	"Reports": "11",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"182470": {
+			"value": "3",
+			"percentage": "27.3%"
+		},
+		"1182470": {
+			"value": "8",
+			"percentage": "72.7%"
+		}
+	},
+	"By Android version": {
+		"Android 8_1": {
+			"value": "6",
+			"percentage": "54.5%"
+		},
+		"Android 8_0": {
+			"value": "5",
+			"percentage": "45.5%"
+		}
+	},
+	"By device": {
+		"V30 (joan)": {
+			"value": "3",
+			"percentage": "27.3%"
+		},
+		"ZenFone Max Pro M1 (ZB602KL) (WW) / Max Pro M1 (ZB601KL) (IN) (ASUS_X00T_8)": {
+			"value": "2",
+			"percentage": "18.2%"
+		},
+		"ZenFone Lite L1 (ZA551KL) / ZenFone Live L1/L2 (ZA550KL) (ASUS_X00R_3)": {
+			"value": "2",
+			"percentage": "18.2%"
+		},
+		"Z2 Pro (Z2_PRO)": {
+			"value": "1",
+			"percentage": "9.1%"
+		},
+		"HTC U11+ (htc_ocmdugl)": {
+			"value": "1",
+			"percentage": "9.1%"
+		},
+		"Lenovo K8 Note (manning)": {
+			"value": "1",
+			"percentage": "9.1%"
+		},
+		"LG Q6 (mhn)": {
+			"value": "1",
+			"percentage": "9.1%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 13, 11:09 AM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2835)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2913)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1615)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6687)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:438)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:810)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7028)\n  at android.app.Activity.performCreate (Activity.java:7019)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1215)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2788)\n",
+			"device": "LGE LG Q6 (mhn), Android 8.1"
+		},
+		{
+			"title": "Aug 5, 2:43 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2904)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2986)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1671)\n  at android.os.Handler.dispatchMessage (Handler.java:108)\n  at android.os.Looper.loop (Looper.java:206)\n  at android.app.ActivityThread.main (ActivityThread.java:6784)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:240)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:852)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6984)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1235)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2857)\n",
+			"device": "Lenovo Lenovo K8 Note (manning), Android 8.0"
+		},
+		{
+			"title": "Jul 29, 6:15 AM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2781)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2859)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1592)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6518)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:438)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:807)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7023)\n  at android.app.Activity.performCreate (Activity.java:7014)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1215)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2734)\n",
+			"device": "Asus ZenFone Lite L1 (ZA551KL) / ZenFone Live L1/L2 (ZA550KL) (ASUS_X00R_3), Android 8.1"
+		},
+		{
+			"title": "Jul 29, 5:04 AM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2781)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2859)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1592)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6518)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:438)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:807)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7023)\n  at android.app.Activity.performCreate (Activity.java:7014)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1215)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2734)\n",
+			"device": "Asus ZenFone Lite L1 (ZA551KL) / ZenFone Live L1/L2 (ZA550KL) (ASUS_X00R_3), Android 8.1"
+		},
+		{
+			"title": "Jul 23, 10:13 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2781)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2859)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1592)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6518)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:438)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:807)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7013)\n  at android.app.Activity.performCreate (Activity.java:7004)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1215)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2734)\n",
+			"device": "Asus ZenFone Max Pro M1 (ZB602KL) (WW) / Max Pro M1 (ZB601KL) (IN) (ASUS_X00T_8), Android 8.1"
+		},
+		{
+			"title": "Jul 23, 10:13 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2781)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2859)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1592)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6518)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:438)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:807)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7013)\n  at android.app.Activity.performCreate (Activity.java:7004)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1215)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2734)\n",
+			"device": "Asus ZenFone Max Pro M1 (ZB602KL) (WW) / Max Pro M1 (ZB601KL) (IN) (ASUS_X00T_8), Android 8.1"
+		},
+		{
+			"title": "Jul 21, 7:24 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2805)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2883)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1613)\n  at android.os.Handler.dispatchMessage (Handler.java:106)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6523)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run (RuntimeInit.java:438)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:857)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:7023)\n  at android.app.Activity.performCreate (Activity.java:7014)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1214)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2758)\n",
+			"device": "Umidigi Z2 Pro (Z2_PRO), Android 8.1"
+		},
+		{
+			"title": "Jul 20, 5:51 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2853)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2928)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1609)\n  at android.os.Handler.dispatchMessage (Handler.java:105)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6709)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:240)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:769)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6980)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1214)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2806)\n",
+			"device": "LGE V30 (joan), Android 8.0"
+		},
+		{
+			"title": "Jun 25, 7:12 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2853)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2928)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1609)\n  at android.os.Handler.dispatchMessage (Handler.java:105)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6709)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:240)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:769)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6980)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1214)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2806)\n",
+			"device": "LGE V30 (joan), Android 8.0"
+		},
+		{
+			"title": "Jun 25, 7:12 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2853)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2928)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1609)\n  at android.os.Handler.dispatchMessage (Handler.java:105)\n  at android.os.Looper.loop (Looper.java:164)\n  at android.app.ActivityThread.main (ActivityThread.java:6709)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:240)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:769)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6980)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1214)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2806)\n",
+			"device": "LGE V30 (joan), Android 8.0"
+		},
+		{
+			"title": "Jun 18, 6:45 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2910)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2985)\n  at android.app.ActivityThread.-wrap11 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1649)\n  at android.os.Handler.dispatchMessage (Handler.java:105)\n  at android.os.Looper.loop (Looper.java:180)\n  at android.app.ActivityThread.main (ActivityThread.java:6950)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:240)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:835)\n  at java.lang.Long.parseLong (Long.java:590)\n  at java.lang.Long.valueOf (Long.java:804)\n  at org.kiwix.kiwixmobile.utils.files.FileUtils.getLocalFilePathByUri (FileUtils.java:139)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.manageExternalLaunchAndRestoringViewState (KiwixMobileActivity.java:1771)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onCreate (KiwixMobileActivity.java:462)\n  at android.app.Activity.performCreate (Activity.java:6986)\n  at android.app.Instrumentation.callActivityOnCreate (Instrumentation.java:1232)\n  at android.app.ActivityThread.performLaunchActivity (ActivityThread.java:2863)\n",
+			"device": "HTC HTC U11+ (htc_ocmdugl), Android 8.0"
+		}
+	]
+},
+{
+	"Reports": "61",
+	"Reports total": "",
+	"Impacted users": "",
+	"Last reported": "",
+	"By app version": {
+		"182470": {
+			"value": "12",
+			"percentage": "19.7%"
+		},
+		"1182470": {
+			"value": "49",
+			"percentage": "80.3%"
+		}
+	},
+	"By Android version": {
+		"Android 7_0": {
+			"value": "53",
+			"percentage": "86.9%"
+		},
+		"Android 8_0": {
+			"value": "5",
+			"percentage": "8.2%"
+		},
+		"Android 7_1": {
+			"value": "3",
+			"percentage": "4.9%"
+		}
+	},
+	"By device": {
+		"ZenPad 10 (Z300M) (P00C_2)": {
+			"value": "40",
+			"percentage": "65.6%"
+		},
+		"LG K10 (m209n)": {
+			"value": "12",
+			"percentage": "19.7%"
+		},
+		"Mate 10 lite (HWRNE)": {
+			"value": "5",
+			"percentage": "8.2%"
+		},
+		"SUGAR Y12 (p101bs)": {
+			"value": "2",
+			"percentage": "3.3%"
+		},
+		"ZenFone 4 Max (ZC554KL) (ASUS_X00IDB)": {
+			"value": "1",
+			"percentage": "1.6%"
+		},
+		"ZenPad 8_0 (Z380M) (P00A_2)": {
+			"value": "1",
+			"percentage": "1.6%"
+		}
+	},
+	"exceptions": [
+		{
+			"title": "Aug 11, 8:43 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3449)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3489)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2732)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1477)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:159)\n  at android.app.ActivityThread.main (ActivityThread.java:6139)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:886)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:776)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6863)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3426)\n",
+			"device": "Asus ZenFone 4 Max (ZC554KL) (ASUS_X00IDB), Android 7.1"
+		},
+		{
+			"title": "Aug 7, 7:56 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3479)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3519)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2767)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1497)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6195)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:910)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:800)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6827)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3456)\n",
+			"device": "Sugar SUGAR Y12 (p101bs), Android 7.1"
+		},
+		{
+			"title": "Aug 7, 7:56 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3479)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3519)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2767)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1497)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6195)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:910)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:800)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6827)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3456)\n",
+			"device": "Sugar SUGAR Y12 (p101bs), Android 7.1"
+		},
+		{
+			"title": "Aug 6, 3:53 AM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 6, 3:53 AM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 5, 10:58 PM on app version 182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3536)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3576)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2818)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1528)\n  at android.os.Handler.dispatchMessage (Handler.java:102)\n  at android.os.Looper.loop (Looper.java:154)\n  at android.app.ActivityThread.main (ActivityThread.java:6317)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:872)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:762)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1270)\n  at android.app.Activity.performResume (Activity.java:6861)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3513)\n",
+			"device": "LGE LG K10 (m209n), Android 7.0"
+		},
+		{
+			"title": "Aug 2, 10:24 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 8.0 (Z380M) (P00A_2), Android 7.0"
+		},
+		{
+			"title": "Jul 28, 5:17 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4179)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4219)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3314)\n  at android.app.ActivityThread.-wrap12 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1891)\n  at android.os.Handler.dispatchMessage (Handler.java:108)\n  at android.os.Looper.loop (Looper.java:166)\n  at android.app.ActivityThread.main (ActivityThread.java:7425)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:245)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:921)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1364)\n  at android.app.Activity.performResume (Activity.java:7479)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4147)\n",
+			"device": "Huawei Mate 10 lite (HWRNE), Android 8.0"
+		},
+		{
+			"title": "Jul 28, 5:17 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4179)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4219)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3314)\n  at android.app.ActivityThread.-wrap12 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1891)\n  at android.os.Handler.dispatchMessage (Handler.java:108)\n  at android.os.Looper.loop (Looper.java:166)\n  at android.app.ActivityThread.main (ActivityThread.java:7425)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:245)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:921)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1364)\n  at android.app.Activity.performResume (Activity.java:7479)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4147)\n",
+			"device": "Huawei Mate 10 lite (HWRNE), Android 8.0"
+		},
+		{
+			"title": "Jul 28, 5:17 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4179)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4219)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3314)\n  at android.app.ActivityThread.-wrap12 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1891)\n  at android.os.Handler.dispatchMessage (Handler.java:108)\n  at android.os.Looper.loop (Looper.java:166)\n  at android.app.ActivityThread.main (ActivityThread.java:7425)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:245)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:921)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1364)\n  at android.app.Activity.performResume (Activity.java:7479)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4147)\n",
+			"device": "Huawei Mate 10 lite (HWRNE), Android 8.0"
+		},
+		{
+			"title": "Jul 28, 5:17 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4179)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4219)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3314)\n  at android.app.ActivityThread.-wrap12 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1891)\n  at android.os.Handler.dispatchMessage (Handler.java:108)\n  at android.os.Looper.loop (Looper.java:166)\n  at android.app.ActivityThread.main (ActivityThread.java:7425)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:245)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:921)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1364)\n  at android.app.Activity.performResume (Activity.java:7479)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4147)\n",
+			"device": "Huawei Mate 10 lite (HWRNE), Android 8.0"
+		},
+		{
+			"title": "Jul 28, 5:17 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4179)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:4219)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:3314)\n  at android.app.ActivityThread.-wrap12 (Unknown Source)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1891)\n  at android.os.Handler.dispatchMessage (Handler.java:108)\n  at android.os.Looper.loop (Looper.java:166)\n  at android.app.ActivityThread.main (ActivityThread.java:7425)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.Zygote$MethodAndArgsCaller.run (Zygote.java:245)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:921)\n  at java.util.ArrayList.get (ArrayList.java:437)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1364)\n  at android.app.Activity.performResume (Activity.java:7479)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:4147)\n",
+			"device": "Huawei Mate 10 lite (HWRNE), Android 8.0"
+		},
+		{
+			"title": "Jul 5, 11:03 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 5, 11:03 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 5, 11:03 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 5:54 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 5:54 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 5:54 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 5:54 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 5:54 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 5:54 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 5:54 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 5:54 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 5:54 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 9:53 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 9:53 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 3:20 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 3:20 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 3:20 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 3:20 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 3:20 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 2, 3:20 AM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		},
+		{
+			"title": "Jul 1, 3:31 PM on app version 1182470",
+			"trace": "java.lang.RuntimeException: \n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3532)\n  at android.app.ActivityThread.handleResumeActivity (ActivityThread.java:3572)\n  at android.app.ActivityThread.handleLaunchActivity (ActivityThread.java:2801)\n  at android.app.ActivityThread.-wrap12 (ActivityThread.java)\n  at android.app.ActivityThread$H.handleMessage (ActivityThread.java:1530)\n  at android.os.Handler.dispatchMessage (Handler.java:110)\n  at android.os.Looper.loop (Looper.java:208)\n  at android.app.ActivityThread.main (ActivityThread.java:6304)\n  at java.lang.reflect.Method.invoke (Native Method)\n  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1063)\n  at com.android.internal.os.ZygoteInit.main (ZygoteInit.java:924)\n  at java.util.ArrayList.get (ArrayList.java:411)\n  at org.kiwix.kiwixmobile.KiwixMobileActivity.onResume (KiwixMobileActivity.java:1263)\n  at android.app.Instrumentation.callActivityOnResume (Instrumentation.java:1269)\n  at android.app.Activity.performResume (Activity.java:6808)\n  at android.app.ActivityThread.performResumeActivity (ActivityThread.java:3503)\n",
+			"device": "Asus ZenPad 10 (Z300M) (P00C_2), Android 7.0"
+		}
+	]
+}
+]
