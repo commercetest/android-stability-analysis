@@ -1,0 +1,3 @@
+ at org.kiwix.kiwixmobile.downloader.DownloadService.pauseDownload (DownloadService.java:266)
+   at org.kiwix.kiwixmobile.downloader.DownloadFragment$DownloadAdapter.setPlayState (DownloadFragment.java:227)
+   at org.kiwix.kiwixmobile.downloader.DownloadFragment$DownloadAdapter.lambda$getView$5 (DownloadFragment.java:286)

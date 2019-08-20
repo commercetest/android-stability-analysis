@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Playground",
+            "type": "node",
+            "request": "launch",
+            "args": [
+                "--nolazy",
+                "-r",
+                "ts-node/register",
+                "${workspaceRoot}/scripts/similar.ts",
+                "--data=./data/from-android-vitals/kiwix-60-days-android-crash-clusters_1565903554709.json",
+                "--traceLines=./data/sampleTraceLines.txt"
+            ],
+            "sourceMaps": true,
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector",
+        }
+    ]
+}
