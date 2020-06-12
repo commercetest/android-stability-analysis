@@ -1,6 +1,9 @@
 # android-stability-analysis
-Analyses data from various sources including Android Vitals for crashes, ANRs and other stability concerns
+Analyses data from various sources including Android Vitals for crashes, ANRs and other stability concerns.
 
+The project contains a utility script to pattern match clusters of errors reported in Android Vitals. Android Vitals has not grouped clusters completely for several years (first observed in early 2019, still occuring June 2020). This leads to flaws in their rankings of the errors. 
+
+This scripts helps teams identify common clusters, the totals for these clusters can then be recalculated. The recalculated totals then enable a corrected league table to be produced. Teams can then choose the order to address reported errors based on the corrected ranking rather than the flawed ranking Google generates.
 
 ## Running
 ```bash
